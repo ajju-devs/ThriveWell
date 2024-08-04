@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# ThriveWell - A Holistic Health Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **ThriveWell**, your comprehensive portal for good health and well-being. This project aims to provide valuable resources, tips, and interactive tools to help individuals achieve holistic health. ThriveWell is a part of the IBM Front-End Web Development (FEWD) Internship Project.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ThriveWell is designed to offer users a range of resources and tools related to health and wellness. It covers aspects of the Sustainable Development Goal of Good Health and Well-being, providing users with educational content, interactive quizzes, surveys, and daily health tips.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Daily Health Tips**: Get a random health tip every day, with the option to refresh for a new tip.
+- **Interactive Quizzes**: Test your health knowledge with engaging quizzes.
+- **Health Resources**: Access a curated list of reliable health resources.
+- **Surveys**: Participate in surveys to share your health experiences and insights.
+- **Contact Section**: Reach out to the project team for inquiries and support.
+- **Responsive Design**: Accessible on various devices with a user-friendly interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React**: Front-end JavaScript library for building user interfaces.
+- **React Router**: For managing navigation and routing.
+- **CSS**: For styling the components.
+- **Axios**: For making HTTP requests (optional, for API integration).
+- **GitHub**: For version control and project hosting.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup and Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To set up the project locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/thrivewell.git
+   cd thrivewell
 
-### `npm run eject`
+2. **Install dependencies:**
+   npm install
+3. **Start the development server:**
+   npm start
+4. **Access the application:**
+   Open your browser and navigate to http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
+1. Navigate through the application: Use the navigation bar to explore different sections of the portal.
+2. Daily Tip: Check out the daily health tip on the Tips page.
+3. Resources: Explore valuable health resources and click on the links to learn more.
+4. Quizzes and Surveys: Participate in quizzes and surveys to enhance your health knowledge and share your insights.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
+This project is licensed under the MIT License. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgements
+1. IBM FEWD Internship Program: For the guidance and support.
+2. React Community: For the powerful tools and libraries.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting ThriveWell. We hope you find this portal helpful on your journey to good health and well-being!
