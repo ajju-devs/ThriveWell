@@ -1,0 +1,39 @@
+import React from 'react';
+import './Footer.css'; 
+
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <p className="bold-text">Built with ❤️ by:</p>
+      <div className="footer-container">
+        <div className="footer-row">
+          <div className="footer-item">
+            <a href="https://www.linkedin.com/in/theajaykumar29/" target="_blank" rel="noopener noreferrer">Ajay Kumar</a>
+            <span> | theajaykumar29@gmail.com</span>
+          </div>
+          <div className="footer-item">
+            <a href="https://www.linkedin.com/in/harsh-upreti-7016792b1/" target="_blank" rel="noopener noreferrer">Harsh Upreti</a>
+            <span> | harshupreti3857@gmail.com</span>
+          </div>
+          <div className="footer-item">
+            <a href="http://www.linkedin.com/in/ankushmishra04" target="_blank" rel="noopener noreferrer">Ankush Mishra</a>
+            <span> | mishraankush713@gmail.com</span>
+          </div>
+        </div>
+        <div className="footer-row">
+          <div className="footer-item">
+            <a href="https://www.linkedin.com/in/harshveer-singh-1a6912205" target="_blank" rel="noopener noreferrer">Harshveer Singh</a>
+            <span> | harshveerhvs@gmail.com</span>
+          </div>
+          <div className="footer-item">
+            <a href="https://www.linkedin.com/in/deepanshu-singh-ab0249148/" target="_blank" rel="noopener noreferrer">Deepanshu Singh</a>
+            <span> | deepanshusingh963n@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <p>&copy; {new Date().getFullYear()} Good Health and Well-being WebApp. IBM FEWD Internship Project. All rights reserved.</p>
+    </footer>
+  );
+};
+
+export default Footer;

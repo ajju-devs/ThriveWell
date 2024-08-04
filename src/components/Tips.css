@@ -1,0 +1,70 @@
+.tips {
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.daily-tip {
+  background-color: #f4f4f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.daily-tip h2 {
+  color: #4CAF50;
+  margin-bottom: 0.5rem;
+}
+
+.daily-tip p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.daily-tip button {
+  padding: 0.5rem 1rem;
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto; 
+  height: auto;
+}
+
+.daily-tip button:hover {
+  background-color: #0b79d0;
+}
+
+.all-tips {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.all-tips h2 {
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+.tips-category {
+  margin-bottom: 2rem;
+}
+
+.tips-category h3 {
+  color: #333;
+}
+
+.tips-category ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.tips-category li {
+  margin: 0.5rem 0;
+  color: #555;
+}
