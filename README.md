@@ -1,6 +1,6 @@
 # ThriveWell - A Holistic Health Portal
 
-Welcome to **ThriveWell**, your comprehensive portal for good health and well-being. This project aims to provide valuable resources, tips, and interactive tools to help individuals achieve holistic health. ThriveWell is a part of the IBM Front-End Web Development (FEWD) Internship Project.
+Welcome to **ThriveWell**, your comprehensive portal for good health and well-being. This project aims to provide valuable resources, tips, and interactive tools to help individuals achieve holistic health. ThriveWell is a part of the IBM Front-End Web Development (FEWD) Internship Project (July 2024).
 
 ## Table of Contents
 
