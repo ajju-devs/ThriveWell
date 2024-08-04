@@ -9,7 +9,6 @@ Welcome to **ThriveWell**, your comprehensive portal for good health and well-be
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
