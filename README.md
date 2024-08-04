@@ -39,8 +39,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/thrivewell.git
-   cd thrivewell
+   git clone https://github.com/ajju-devs/ThriveWell.git
+   cd ThriveWell
 
 2. **Install dependencies:**
    npm install
