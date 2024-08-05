@@ -34,3 +34,47 @@ h2 {
   margin: 0;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .logo-container {
+    padding: 0.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    max-width: 80px;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .text-container {
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-container {
+    padding: 0.5rem;
+  }
+
+  .logo {
+    max-width: 60px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
