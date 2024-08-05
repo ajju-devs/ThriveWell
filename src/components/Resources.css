@@ -21,17 +21,10 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1.5rem;
-  width: 45%;
+  width: 100%;
+  max-width: 300px; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.resource-item.left {
-  align-self: flex-start;
-}
-
-.resource-item.right {
-  align-self: flex-end;
 }
 
 .resource-item:hover {
@@ -59,4 +52,11 @@
 
 .resource-item a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .resource-item {
+    width: 100%;
+    max-width: none;
+  }
 }
