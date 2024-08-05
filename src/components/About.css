@@ -81,6 +81,7 @@
   border-radius: 5px;
   padding: 1rem;
   width: 250px;
+  max-width: 100%;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -107,7 +108,6 @@
   text-decoration: underline;
 }
 
-
 @media (max-width: 768px) {
   .about {
     padding: 1rem;
@@ -128,6 +128,7 @@
 
   .developer {
     width: 100%;
+    max-width: 90%;
   }
 }
 
@@ -138,5 +139,10 @@
 
   .intro, .statistics p {
     font-size: 0.9rem; 
+  }
+
+  .developer {
+    width: 100%;
+    max-width: 90%;
   }
 }
