@@ -107,13 +107,18 @@
   text-decoration: underline;
 }
 
+
 @media (max-width: 768px) {
   .about {
     padding: 1rem;
   }
 
+  .section-container {
+    gap: 1rem;
+  }
+
   .section {
-    margin-bottom: 1.5rem;
+    padding: 0.5rem;
   }
 
   .developer-info {
@@ -123,5 +128,15 @@
 
   .developer {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about h1 {
+    font-size: 1.5rem; 
+  }
+
+  .intro, .statistics p {
+    font-size: 0.9rem; 
   }
 }
