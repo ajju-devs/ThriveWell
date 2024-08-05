@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p>&copy; {new Date().getFullYear()} Good Health and Well-being WebApp. IBM FEWD Internship Project. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} ThriveWell- A Holistic Health Portal WebApp. IBM FEWD Internship Project July'2024. All rights reserved.</p>
     </footer>
   );
 };
