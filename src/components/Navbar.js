@@ -21,6 +21,7 @@ function Navbar() {
           <Link to="/surveys" className={currentPath === '/surveys' ? 'active' : ''}>Surveys</Link>
           <Link to="/resources" className={currentPath === '/resources' ? 'active' : ''}>Resources</Link>
           <Link to="/contact" className={currentPath === '/contact' ? 'active' : ''}>Contact</Link>
+          <a href="https://github.com/ajju-devs/ThriveWell" target="_blank" rel="noopener noreferrer" className={currentPath === '/github-repo' ? 'active' : ''}>GitHub Repo</a>
         </div>
       </div>
     </nav>
