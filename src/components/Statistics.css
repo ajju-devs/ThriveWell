@@ -16,7 +16,6 @@
   margin-bottom: 1.5rem;
 }
 
-/* Styling for new content */
 .section {
   margin-bottom: 2rem;
 }
@@ -54,9 +53,54 @@
   background-color: #0056b3;
 }
 
-/* Existing chart styling */
 .chart-container {
   position: relative;
   height: 400px;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 0 1rem;
+  }
+
+  .section h3 {
+    font-size: 1.25rem;
+  }
+
+  .custom-bullet li {
+    font-size: 0.9rem;
+  }
+
+  .custom-button {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .chart-container {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 0 0.5rem;
+  }
+
+  .section h3 {
+    font-size: 1rem;
+  }
+
+  .custom-bullet li {
+    font-size: 0.8rem;
+  }
+
+  .custom-button {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.3rem;
+  }
+
+  .chart-container {
+    height: 250px;
+  }
 }
