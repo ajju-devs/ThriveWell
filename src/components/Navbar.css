@@ -1,23 +1,23 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; 
   align-items: center;
   background-color: #4CAF50;
-  padding: 0.25rem;
-}
-
-.navbar h1 {
-  color: white;
-  margin: 0;
+  padding: 0.5rem 0;
+  width: 100%; 
+  box-sizing: border-box; 
 }
 
 .navbar .links {
   display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 1rem; 
+  width: 100%; 
 }
 
 .navbar .links a {
   color: white;
-  margin: 0 1rem;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -31,4 +31,36 @@
 
 .navbar .links a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; 
+  }
+
+  .navbar .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 0.5rem; 
+    justify-items: center;
+    width: 100%; 
+  }
+
+  .navbar .links a {
+    text-align: center;
+    padding: 0.5rem;
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar .links {
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 0.5rem;
+  }
+
+  .navbar .links a {
+    padding: 0.5rem;
+  }
 }
