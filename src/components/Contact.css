@@ -82,3 +82,23 @@ button:hover {
   margin-top: 1rem;
   font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 1rem;
+  }
+
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}
