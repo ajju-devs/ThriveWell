@@ -68,3 +68,65 @@
   margin: 0.5rem 0;
   color: #555;
 }
+
+@media (max-width: 768px) {
+  .tips {
+    padding: 1.5rem;
+  }
+
+  .daily-tip h2 {
+    font-size: 1.5rem;
+  }
+
+  .daily-tip p {
+    font-size: 1rem;
+  }
+
+  .daily-tip button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .all-tips h2 {
+    font-size: 1.5rem;
+  }
+
+  .tips-category h3 {
+    font-size: 1.2rem;
+  }
+
+  .tips-category ul {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tips {
+    padding: 1rem;
+  }
+
+  .daily-tip h2 {
+    font-size: 1.25rem;
+  }
+
+  .daily-tip p {
+    font-size: 0.9rem;
+  }
+
+  .daily-tip button {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .all-tips h2 {
+    font-size: 1.25rem;
+  }
+
+  .tips-category h3 {
+    font-size: 1rem;
+  }
+
+  .tips-category ul {
+    padding-left: 0.5rem;
+  }
+}
