@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h1>{/* navbar heading */}</h1>
+      <h1>{/* ese hi */}</h1>
       <div className="links-container">
         <div className="links" ref={linksRef}>
           <Link to="/" className={currentPath === '/' ? 'active' : ''}>Home</Link>
