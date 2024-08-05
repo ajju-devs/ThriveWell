@@ -122,3 +122,65 @@
 .surveys .restart-button:hover {
   background-color: #45a049; 
 }
+
+@media (max-width: 768px) {
+  .surveys {
+    padding: 1.5rem;
+  }
+
+  .surveys h2 {
+    font-size: 1.5rem;
+  }
+
+  .surveys p {
+    font-size: 1rem;
+  }
+
+  .surveys input {
+    font-size: 0.9rem;
+  }
+
+  .surveys button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .surveys .responses h4 {
+    font-size: 1rem;
+  }
+
+  .surveys .responses p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .surveys {
+    padding: 1rem;
+  }
+
+  .surveys h2 {
+    font-size: 1.25rem;
+  }
+
+  .surveys p {
+    font-size: 0.9rem;
+  }
+
+  .surveys input {
+    font-size: 0.8rem;
+  }
+
+  .surveys button {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .surveys .responses h4 {
+    font-size: 0.9rem;
+  }
+
+  .surveys .responses p {
+    font-size: 0.8rem;
+  }
+}
