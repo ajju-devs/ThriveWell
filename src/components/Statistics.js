@@ -20,7 +20,6 @@ function Statistics() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    
     setTimeout(() => {
       try {
         const chartData1 = {
@@ -65,7 +64,7 @@ function Statistics() {
         setError('Failed to load data');
         setLoading(false);
       }
-    }, 1000); // Simulate network delay
+    }, 1000); 
   }, []);
 
   if (loading) return <div className="loading">Loading...</div>;
@@ -75,7 +74,7 @@ function Statistics() {
     <div className="statistics">
       <h2>Health Statistics</h2>
 
-      {/* Additional Health Statistics Section */}
+      {/* ese hi */}
       <div className="section">
         <h3>Child Health</h3>
         <ul className="custom-bullet">
@@ -157,7 +156,7 @@ function Statistics() {
         </ul>
       </div>
 
-      {/* Existing Health Statistics Section */}
+      {/* ese hi */}
       {data && <div className="chart-container"><Bar data={data} /></div>}
       {data2 && <div className="chart-container"><Pie data={data2} /></div>}
       {data3 && <div className="chart-container"><Line data={data3} /></div>}
