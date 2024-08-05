@@ -137,38 +137,33 @@ function Quizzes() {
     setCurrentPage(0);
   };
 
-  const currentQuestions = questions.slice(currentPage * questionsPerPage, (currentPage + 1) * questionsPerPage);
+  const currentQuestions = !score ? questions.slice(currentPage * questionsPerPage, (currentPage + 1) * questionsPerPage) : [];
 
   return (
     <div className="quizzes">
       <h2>Health and Wellness Quiz</h2>
-      <div className="questions">
-        {currentQuestions.map((q, qIndex) => (
-          <div key={qIndex} className="question">
-            <p className="question-text">{`Question ${currentPage * questionsPerPage + qIndex + 1}: ${q.question}`}</p>
-            <div className="options">
-              {q.options.map((option, oIndex) => (
-                <label key={oIndex} className="option">
-                  <input
-                    type="radio"
-                    name={`question-${currentPage * questionsPerPage + qIndex}`}
-                    checked={answers[currentPage * questionsPerPage + qIndex] === oIndex}
-                    onChange={() => handleAnswerChange(currentPage * questionsPerPage + qIndex, oIndex)}
-                  />
-                  {option}
-                </label>
-              ))}
+      {!score ? (
+        <div className="questions">
+          {currentQuestions.map((q, qIndex) => (
+            <div key={qIndex} className="question">
+              <p className="question-text">{`Question ${currentPage * questionsPerPage + qIndex + 1}: ${q.question}`}</p>
+              <div className="options">
+                {q.options.map((option, oIndex) => (
+                  <label key={oIndex} className="option">
+                    <input
+                      type="radio"
+                      name={`question-${currentPage * questionsPerPage + qIndex}`}
+                      checked={answers[currentPage * questionsPerPage + qIndex] === oIndex}
+                      onChange={() => handleAnswerChange(currentPage * questionsPerPage + qIndex, oIndex)}
+                    />
+                    {option}
+                  </label>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
-      <div className="navigation">
-        {currentPage > 0 && <button onClick={() => setCurrentPage(currentPage - 1)}>Previous</button>}
-        {currentPage < totalPages - 1 
-          ? <button onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
-          : <button onClick={handleSubmit}>Submit</button>}
-      </div>
-      {score && (
+          ))}
+        </div>
+      ) : (
         <div className="result">
           <p>Your score: {score.score} / {questions.length}</p>
           <p>Correct answers: {score.correct}</p>
@@ -191,7 +186,15 @@ function Quizzes() {
               </ul>
             </div>
           </div>
-          <button onClick={handleRetake} className="retake-button">Retake Quiz</button>
+          <button className="retake-button" onClick={handleRetake}>Retake Quiz</button>
+        </div>
+      )}
+      {!score && (
+        <div className="navigation">
+          {currentPage > 0 && <button className="prev-button" onClick={() => setCurrentPage(currentPage - 1)}>Previous</button>}
+          {currentPage < totalPages - 1 
+            ? <button className="next-button" onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
+            : <button className="submit-button" onClick={handleSubmit}>Submit</button>}
         </div>
       )}
     </div>
