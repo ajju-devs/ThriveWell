@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center; 
   align-items: center;
-  background-color: #4CAF50;
+  background-color: #087cbe;
   padding: 0.5rem 0;
   width: 100%; 
   box-sizing: border-box; 
@@ -26,7 +26,7 @@
 
 .navbar .links a.active {
   background-color: white;
-  color: #4CAF50;
+  color: #010f01;
 }
 
 .navbar .links a:hover {
