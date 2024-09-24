@@ -29,6 +29,10 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/deepanshu-singh-ab0249148/" target="_blank" rel="noopener noreferrer">Deepanshu Singh</a>
             <span> | deepanshusingh963n@gmail.com</span>
           </div>
+          <div className="footer-item">
+            <a href="https://in.linkedin.com/in/aseem-saini-8b8883257" target="_blank" rel="noopener noreferrer">Maulana Aseem al-Abdullah Khan</a>
+            <span> | 08619011621.aiml@gmail.com</span>
+          </div>
         </div>
       </div>
       <p>&copy; {new Date().getFullYear()} ThriveWell- A Holistic Health Portal WebApp. IBM FEWD Internship Project July'2024. All rights reserved.</p>
