@@ -77,6 +77,14 @@ function About() {
             <p>Email: deepanshusingh963n@gmail.com</p>
             <p><a href="https://www.linkedin.com/in/deepanshu-singh-ab0249148/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
           </div>
+          <div className="developer">
+            <h3>Maulana Aseem al-Abdullah Khan</h3>
+            <p>Student</p>
+            <p>B.Tech AI-ML</p>
+            <p>USAR, Delhi (GGSIPU EDC)</p>
+            <p>Email: 08619011621.aiml@gmail.com</p>
+            <p><a href="https://in.linkedin.com/in/aseem-saini-8b8883257" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+          </div>
         </div>
       </div>
     </div>
